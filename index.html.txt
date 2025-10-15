@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Smart Health Kit - Download</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #00c6ff, #0072ff);
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+    }
+    .container {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      border-radius: 20px;
+      padding: 40px;
+      max-width: 400px;
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+    }
+    img {
+      width: 120px;
+      margin-bottom: 20px;
+      border-radius: 20px;
+    }
+    h1 {
+      font-size: 1.8rem;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 1rem;
+      margin-bottom: 30px;
+      color: #e0e0e0;
+    }
+    a.button {
+      display: inline-block;
+      background-color: #00ffcc;
+      color: #003366;
+      padding: 12px 30px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    a.button:hover {
+      background-color: #00ccaa;
+    }
+    footer {
+      position: absolute;
+      bottom: 20px;
+      font-size: 0.9rem;
+      color: #cfcfcf;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="welcome_bg.png.png" alt="Smart Health Kit Logo" />
+    <h1>Smart Health Kit</h1>
+    <p>Track your blood pressure, glucose, and temperature with ease.<br>
+       Generate health reports instantly for your doctor.</p>
+    <a class="button" href="https://drive.google.com/file/d/1WVNaNKYynREoF04HIooN7Z7Nj6q4bUK4/view?usp=drive_link" target="_blank">Download APK</a>
+  </div>
+  <footer>
+    © 2025 Smart Health Kit. All rights reserved.
+  </footer>
+</body>
+</html>
